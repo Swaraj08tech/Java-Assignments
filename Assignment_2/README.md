@@ -5,7 +5,7 @@ This project demonstrates the core principles of Object-Oriented Programming (OO
 
 Key Features:
 Encapsulation: Implementation of private data members to protect object state, accessible only through public Getter and Setter methods.
-Constructor Overloading: * Default Constructor: Initializes objects with placeholder values.
+Constructor Overloading:  Default Constructor: Initializes objects with placeholder values.
 Parameterized Constructor: Allows custom initialization at the time of creation.
 Copy Constructor: Creates a new object as a carbon copy of an existing one.
 Behavioral Methods: Simulated vehicle logic including start(), stop(), drive(), calcMileage(), and changeSpeed().
