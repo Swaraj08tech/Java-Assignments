@@ -1,4 +1,5 @@
 Assignment 04: Mathematical Vector Operations & Exception Handling
+
 Description
 This project implements a Vector class capable of performing fundamental linear algebra operations in 2D and 3D space. It emphasizes Data Integrity and Domain-Specific Error Handling by restricting operations to compatible dimensions and ensuring mathematical correctness through custom Java exceptions.
 
