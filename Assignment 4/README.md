@@ -12,9 +12,9 @@ Key Features
 - Input Robustness: Employs InputMismatchException handling to ensure only numeric data is processed during vector population.
 Technical Specifications
 1. Vector Class
-Attributes: Uses a private double[] array to store component values and an int for dimension.
-Encapsulation: Employs private helper methods like checkDimensions() to validate compatibility before performing operations.
-Mathematical Logic: Implements 
+- Attributes: Uses a private double[] array to store component values and an int for dimension.
+- Encapsulation: Employs private helper methods like checkDimensions() to validate compatibility before performing operations.
+- Mathematical Logic: Implements 
 V
 1
 ⋅
@@ -31,15 +31,16 @@ i
 b
 i
  for dot products and component-wise operations for addition/subtraction.
+
 2. Error Handling Flow
-Initialization: Validates if 
+- Initialization: Validates if 
 n
 ∈
 2
 ,
 3
 .
-Operation Safety: Checks if 
+- Operation Safety: Checks if 
 d
 i
 m
@@ -56,8 +57,9 @@ V
 2
 )
  before execution.
-User Input: Catches non-numeric entries during console interaction.
+- User Input: Catches non-numeric entries during console interaction.
+
 File Structure
-Vector.java: The blueprint class containing mathematical logic and dimension checks.
-VectorException.java: Custom exception class for handling vector-specific errors.
-VectorMain.java: The driver class for user interaction and operation execution.
+- Vector.java: The blueprint class containing mathematical logic and dimension checks.
+- VectorException.java: Custom exception class for handling vector-specific errors.
+- VectorMain.java: The driver class for user interaction and operation execution.
